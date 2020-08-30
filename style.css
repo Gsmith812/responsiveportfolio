@@ -1,0 +1,110 @@
+/* Import new fonts to use with headings and text */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Montserrat&family=Russo+One&display=swap');
+
+/*Header*/
+
+header {
+  background-image: url(images/landscape-sri-lanka.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 120px;
+}
+
+header h1 {
+  font-family: "Russo One", 'Courier New', Courier, monospace;
+  font-size: 52px;
+  text-shadow: 0 0 20px #000;
+  color: #f7fff7;
+}
+
+header h2 {
+  font-family: "Russo One", 'Courier New', Courier, monospace;
+  font-size: 28px;
+  color: #f7fff7;
+  text-shadow: 0 0 20px #000;
+}
+
+/*Main*/
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+main h2 {
+  font-family: "Lexend Peta", 'Courier New', Courier, monospace;
+  font-size: 28px;
+}
+
+main h3 {
+  font-family: "Russo One", 'Courier New', Courier, monospace;
+  font-size: 22px;
+  margin: 20px;
+}
+
+main p, li {
+  font-family: "Montserrat", 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.about-me, .services {
+  background-color: #4ecdc4;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:link {color: #0077b6;}
+a:visited {color: #03045e;}
+a:hover {color: #00b4d8;}
+a:active {color: #90e0ef;}
+
+/*Footer*/
+footer {
+  font-family: "Russo One", 'Courier New', Courier, monospace;
+  font-size: 26px;
+  padding: 30px;
+  text-align: center;
+  background-color: #1a535c;
+  color: #f7fff7;
+}
+
+/*Design (Mobile first)*/
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/*Design (Desktop)*/
+
+@media all and (min-width: 800px) {
+  .wrapper {
+  width: 80%;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .portfolio h2 {
+    text-align: center;
+  }
+}
