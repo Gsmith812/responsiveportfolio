@@ -123,14 +123,6 @@ input, textarea {
   justify-content: center;
 }
 
-.about-me-text {
-  order: 1;
-}
-
-.about-me img {
-  order: 2;
-}
-
 /*Design (Desktop)*/
 
 @media all and (min-width: 800px) {
