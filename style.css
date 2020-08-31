@@ -10,6 +10,7 @@ header {
   background-size: cover;
   text-align: center;
   padding: 120px;
+  margin-bottom: 20px;
 }
 
 header h1 {
@@ -82,6 +83,12 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-me ol li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .item {
@@ -94,6 +101,36 @@ footer {
   margin: 10px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  flex: 1;
+}
+
+input, textarea {
+  margin-bottom: 20px;
+}
+
+.portfolio h2 {
+  text-align: center;
+}
+
+.item iframe {
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+.about-me-text {
+  order: 1;
+}
+
+.about-me img {
+  order: 2;
+}
+
 /*Design (Desktop)*/
 
 @media all and (min-width: 800px) {
@@ -102,9 +139,5 @@ footer {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  }
-
-  .portfolio h2 {
-    text-align: center;
   }
 }

@@ -33,7 +33,7 @@
           <div class="item">
             <img src="images/person-coding.jpg" rel="Person typing a coding language on laptop" class="rounded" />
           </div>
-          <div class="item">
+          <div class="item" id="about-me-text">
             <h2>A Snippet about George</h2>
             <p>My passion for technology has been a constant in my life. From being a child playing video games, to an adult who just has to have the newest and greatest devices, I've always enjoyed discovering and learning about new advancements in tech. I taught myself to code a bit of HTML and CSS when I was just 13 years old, but later in my life I set my passion for coding aside and pursued other careers.</p>
             <p>Now I'm back and reinpsired to again pursue my love of coding at <a href="https://www.thinkful.com" target="_blank">Thinkful</a>! I am so happy to rejoin the coding community and work with thousands of developers from around the world together on future projects!</p>
@@ -69,7 +69,7 @@
             <ol>
               <li>HTML 5</li>
               <li>CSS 3</li>
-              <li>Javascript</li>
+              <li>JavaScript</li>
             </ol>
           </div>
           <div class="item">
@@ -81,7 +81,16 @@
         <div class="wrapper">
           <div class="item">
             <h2>Contact</h2>
-            <p>I really hope you enjoyed my website, please feel free to contact me!</p>
+            <p>I really hope you enjoyed my website, please feel free to send me an email here or follow me on my social media platforms:</p>
+            <form action="https://formspree.io/mvowjbnw" method="POST">
+              <label id="name">Your Name: </label>
+              <input type="text" name="name" placeholder="Your Name here..." required>
+              <label id="_replyto">Your Email: </label>
+              <input type="email" name="_replyto" placeholder="Your Email here..." required>
+              <label id="message">Your Message: </label>
+              <textarea name="message" placeholder="Type your message here..." required></textarea>
+              <input type="submit" value="Send">
+            </form>
             <ol>
               <li><a href="https://www.linkedin.com/in/gsmithiv/" target="_blank">LinkedIn</a></li>
               <li><a href="https://github.com/Gsmith812" target="_blank">Github</a></li>
