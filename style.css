@@ -32,6 +32,7 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 header nav ul {
@@ -49,6 +50,7 @@ header nav ul li a {
   text-decoration: none;
   padding-right: 10px;
   font-family: "Montserrat", 'Courier New', Courier, monospace;
+  font-size: 14px;
 }
 
 header a:hover {color: #00b4d8;}
@@ -113,7 +115,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.contact-me ol li {
+.contact ol li {
   list-style: none;
   margin-bottom: 10px;
 }
@@ -140,7 +142,7 @@ input, textarea {
   margin-bottom: 20px;
 }
 
-.portfolio h2 {
+.projects h2 {
   text-align: center;
 }
 
