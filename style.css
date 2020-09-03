@@ -155,7 +155,7 @@ input, textarea {
 
 /*Design (Desktop)*/
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 700px) {
   .wrapper {
   width: 85%;
   flex-direction: row;
