@@ -9,8 +9,7 @@ header {
   background-position: center center;
   background-size: cover;  
   margin-bottom: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 
 .logo {
@@ -42,6 +41,7 @@ header nav ul {
 header nav ul li {
   list-style-type: none;
   margin-right: 10px;
+  flex-wrap: wrap;
 }
 
 header nav ul li a {
@@ -155,7 +155,7 @@ input, textarea {
 
 /*Design (Desktop)*/
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 800px) {
   .wrapper {
   width: 85%;
   flex-direction: row;
