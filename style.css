@@ -165,7 +165,7 @@ input, textarea {
   header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .logo {
     justify-content: flex-start;
