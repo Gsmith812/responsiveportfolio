@@ -41,12 +41,12 @@ header nav ul {
 
 header nav ul li {
   list-style-type: none;
+  margin-right: 10px;
 }
 
 header nav ul li a {
   color: #f7fff7;
   text-decoration: none;
-  margin-right: 10px;
   font-family: "Montserrat", 'Courier New', Courier, monospace;
   font-size: 14px;
 }
