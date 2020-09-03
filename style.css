@@ -54,6 +54,10 @@ header nav ul li a {
 
 header a:hover {color: #00b4d8;}
 
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
 /*Main*/
 
 img {
@@ -182,6 +186,6 @@ input, textarea {
 
   header nav ul li a {
     font-size: 22px;
-    padding-right: 20px;
+    margin-right: 20px;
   }
 }
