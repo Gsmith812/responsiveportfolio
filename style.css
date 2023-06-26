@@ -9,49 +9,39 @@ header {
   background-position: center center;
   background-size: cover;  
   margin-bottom: 20px;
-  padding: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+  text-align: center;
 }
 
 header h1 {
   font-family: "Russo One", 'Courier New', Courier, monospace;
-  font-size: 44px;
+  font-size: 40px;
   text-shadow: 0 0 20px #000;
   color: #f7fff7;
 }
 
 /*Header Navigation*/
 
-header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-header nav ul li {
-  list-style-type: none;
-  margin: 10px;
-}
-
-header nav ul li a {
+header nav a {
   color: #f7fff7;
   text-decoration: none;
   font-family: "Montserrat", 'Courier New', Courier, monospace;
-  font-size: 14px;
+  font-size: 15px;
+  padding: 5px;
 }
 
-header a:hover {color: #00b4d8;}
+header a:hover {
+  color: #00b4d8;
+  background-color: #f7fff7;
+  border-radius: 10px;
+}
 
 header nav ul li:last-child {
   margin-right: 0px;
@@ -101,8 +91,8 @@ main a:active {color: #90e0ef;}
 /*Footer*/
 footer {
   font-family: "Russo One", 'Courier New', Courier, monospace;
-  font-size: 26px;
-  padding: 30px;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
   background-color: #1a535c;
   color: #f7fff7;
@@ -165,14 +155,8 @@ input, textarea {
   header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-  }
-  .logo {
-    justify-content: flex-start;
-  }
-
-  header h1 {
-    margin-left: 50px;
+    justify-content: space-around;
+    align-items: center;
   }
 
   nav {
@@ -180,11 +164,10 @@ input, textarea {
   }
   
   header h1 {
-    font-size: 56px;
+    font-size: 40px;
   }
 
-  header nav ul li a {
-    font-size: 20px;
-    margin-right: 10px;
+  header nav a {
+    font-size: 18px;
   }
 }
